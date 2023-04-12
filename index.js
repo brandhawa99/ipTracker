@@ -11,4 +11,4 @@ app.post('/sendValues/:id', function (req, res) {
   res.send("hello")
 })
 
-app.listen(3002)
+app.listen(process.env.PORT || 3002)
